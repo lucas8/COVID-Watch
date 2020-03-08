@@ -13,6 +13,17 @@
 		A00BE89E2413543E0016AB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00BE89D2413543E0016AB8D /* Assets.xcassets */; };
 		A00BE8A12413543E0016AB8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00BE8A02413543E0016AB8D /* Preview Assets.xcassets */; };
 		A00BE8A42413543E0016AB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00BE8A22413543E0016AB8D /* LaunchScreen.storyboard */; };
+		A00BE8AC2413548C0016AB8D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BE8AB2413548C0016AB8D /* MapView.swift */; };
+		A00BE8AE241356CD0016AB8D /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BE8AD241356CD0016AB8D /* Modifier.swift */; };
+		A00BE8B0241357140016AB8D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BE8AF241357140016AB8D /* BlurView.swift */; };
+		A02227592414505D0086FF9F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02227582414505D0086FF9F /* CardView.swift */; };
+		A03FC6A22415493F00982E94 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FC6A12415493F00982E94 /* InfoView.swift */; };
+		A04E4B482413F0CD005B8029 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E4B472413F0CD005B8029 /* LocationManager.swift */; };
+		A0618A96241483790039C7FC /* NearbyHospitalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0618A95241483790039C7FC /* NearbyHospitalManager.swift */; };
+		A0618A9824148E200039C7FC /* SelectedPointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0618A9724148E200039C7FC /* SelectedPointManager.swift */; };
+		A0618A9A24149ADC0039C7FC /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0618A9924149ADC0039C7FC /* ReportView.swift */; };
+		A06EECED241527970051D5AE /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EECEC241527970051D5AE /* ActivityIndicator.swift */; };
+		A06EECEF241530060051D5AE /* ZoneStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EECEE241530060051D5AE /* ZoneStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		A00BE8A02413543E0016AB8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A00BE8A32413543E0016AB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00BE8A52413543E0016AB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00BE8AB2413548C0016AB8D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A00BE8AD241356CD0016AB8D /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		A00BE8AF241357140016AB8D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		A02227582414505D0086FF9F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A03FC6A12415493F00982E94 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A04E4B472413F0CD005B8029 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A0618A95241483790039C7FC /* NearbyHospitalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyHospitalManager.swift; sourceTree = "<group>"; };
+		A0618A9724148E200039C7FC /* SelectedPointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPointManager.swift; sourceTree = "<group>"; };
+		A0618A9924149ADC0039C7FC /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		A06EECEC241527970051D5AE /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A06EECEE241530060051D5AE /* ZoneStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +81,21 @@
 				A00BE8972413543A0016AB8D /* AppDelegate.swift */,
 				A00BE8992413543A0016AB8D /* SceneDelegate.swift */,
 				A00BE89B2413543A0016AB8D /* ContentView.swift */,
+				A02227582414505D0086FF9F /* CardView.swift */,
+				A00BE8AB2413548C0016AB8D /* MapView.swift */,
 				A00BE89D2413543E0016AB8D /* Assets.xcassets */,
 				A00BE8A22413543E0016AB8D /* LaunchScreen.storyboard */,
 				A00BE8A52413543E0016AB8D /* Info.plist */,
 				A00BE89F2413543E0016AB8D /* Preview Content */,
+				A00BE8AD241356CD0016AB8D /* Modifier.swift */,
+				A00BE8AF241357140016AB8D /* BlurView.swift */,
+				A04E4B472413F0CD005B8029 /* LocationManager.swift */,
+				A0618A95241483790039C7FC /* NearbyHospitalManager.swift */,
+				A0618A9724148E200039C7FC /* SelectedPointManager.swift */,
+				A0618A9924149ADC0039C7FC /* ReportView.swift */,
+				A06EECEC241527970051D5AE /* ActivityIndicator.swift */,
+				A06EECEE241530060051D5AE /* ZoneStore.swift */,
+				A03FC6A12415493F00982E94 /* InfoView.swift */,
 			);
 			path = CoronaTracker;
 			sourceTree = "<group>";
@@ -147,8 +180,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00BE8982413543A0016AB8D /* AppDelegate.swift in Sources */,
+				A00BE8AC2413548C0016AB8D /* MapView.swift in Sources */,
 				A00BE89A2413543A0016AB8D /* SceneDelegate.swift in Sources */,
+				A0618A9824148E200039C7FC /* SelectedPointManager.swift in Sources */,
+				A06EECED241527970051D5AE /* ActivityIndicator.swift in Sources */,
+				A04E4B482413F0CD005B8029 /* LocationManager.swift in Sources */,
+				A03FC6A22415493F00982E94 /* InfoView.swift in Sources */,
+				A0618A9A24149ADC0039C7FC /* ReportView.swift in Sources */,
+				A0618A96241483790039C7FC /* NearbyHospitalManager.swift in Sources */,
 				A00BE89C2413543A0016AB8D /* ContentView.swift in Sources */,
+				A00BE8AE241356CD0016AB8D /* Modifier.swift in Sources */,
+				A02227592414505D0086FF9F /* CardView.swift in Sources */,
+				A00BE8B0241357140016AB8D /* BlurView.swift in Sources */,
+				A06EECEF241530060051D5AE /* ZoneStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
